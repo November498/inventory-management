@@ -39,7 +39,6 @@ Holds constant values used throughout the application.
 Context providers for managing global state outside of Redux.
 
 - **`CartContext.jsx`**: Manages the shopping cart state and provides helper functions like `addItemToCart`.
-- **`SidebarContext.jsx`**: Handles the sidebar's open/close state and responsiveness for mobile devices.
 - **`UseCard.js`**: A custom hook for accessing the `CartContext`.
 
 #### 4. **`/data`**
@@ -57,8 +56,6 @@ Feature-specific logic and components.
 - **`/auth`**: Contains `userSlice.js` for managing user authentication and session state.
 - **`/cart`**: Includes `CartOverlay.jsx` for displaying a notification when items are added to the cart and `cartSlice.js` for managing cart-related state.
 - **`/admin`**: Contains admin-specific features like `AddProduct` for adding new products to the inventory.
-- **`/orders`**: Manages order-related features.
-- **`/products`**: Handles product-related features.
 
 #### 6. **`/layouts`**
 
@@ -176,6 +173,7 @@ npm start
 - **State Management**: Redux Toolkit, Context API
 - **Routing**: React Router
 - **Notifications**: React Toastify
+- **Email Notifications**: Brevo
 
 ---
 
