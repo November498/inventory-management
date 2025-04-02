@@ -43,7 +43,7 @@ const OrdersTable = ({ openModal, orders }) => {
   });
 
   return (
-    <div className="mb-auto flex h-full flex-col gap-4 rounded-md bg-white p-3">
+    <div className="mb-auto flex h-full overflow-scroll flex-col gap-4 rounded-md bg-white p-3">
       <div className="flex items-center">
         <h3 className="text-lg text-gray-800">Orders</h3>
         <div className="ml-auto flex gap-2">

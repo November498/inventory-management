@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const LowQuantityStock = ({ lowQuantityProducts }) => {
   return (
-    <div className="flex h-72 w-full flex-col rounded-md bg-white p-2 px-3">
+    <div className="flex h-72 w-full overflow-scroll flex-col rounded-md bg-white p-2 px-3">
       <div className="flex items-center justify-between px-3 py-4">
         <h3 className="text-gray-800">Low Quantity Stock</h3>
         <Link
