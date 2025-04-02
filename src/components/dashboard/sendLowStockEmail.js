@@ -10,7 +10,7 @@ const sendLowStockEmail = async (
       "api-key": import.meta.env.VITE_BREVO_API_KEY,
     },
     body: JSON.stringify({
-      sender: { name: "Your Store", email: "your-email@example.com" },
+      sender: { name: "Your Store", email: "bagsuz@app.com" },
       to: [{ email: supplierEmail }],
       subject: `⚠️ Low Stock Alert: ${productName}`,
       htmlContent: `

@@ -60,7 +60,7 @@ const OrderNotifications = () => {
             // Send the email notification
             if (supplier) {
               await sendLowStockEmail(
-                payload.new.contact_email || import.meta.env.VITE_TEST_EMAIL,
+                supplier.contact_email,
                 payload.new.name,
                 payload.new.quantity,
               );
